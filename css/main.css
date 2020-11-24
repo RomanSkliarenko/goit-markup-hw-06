@@ -644,6 +644,12 @@ position: relative;
   line-height: 24px;
   padding: 60px 0;
 }
+.footer-left-side {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 95px;
+}
 .footer p {
   color:var(--white-text-color);
   margin: 0;
@@ -653,7 +659,7 @@ position: relative;
   color: var(--secondary-text-color);
 }
 .footer-form {
-  margin-left: 95px;
+  width: 50%;
 }
 .footer-form p {
   font-family: Roboto;
@@ -667,6 +673,8 @@ position: relative;
 }
 .form {
   margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 .form-button {
   color: var(--white-text-color);
@@ -682,7 +690,6 @@ position: relative;
   line-height: 30px;
   letter-spacing: 0.06em;
   margin: 0;
-  margin-left: 12px;
   padding: 0;
   cursor: pointer;
   display: inline-flex;
@@ -703,7 +710,7 @@ position: relative;
   margin-left: 10px;
 }
 .input {
-  width: 360px;
+  width: 370px;
   height: 50px;
   background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -777,6 +784,7 @@ position: relative;
 .modal-input {
   color: var(--primary-text-color);
   width: 100%;
+  height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
